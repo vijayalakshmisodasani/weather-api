@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/weather-api.git'
+                git 'git@github.com:vijayalakshmisodasani/weather-api.git '
             }
         }
 
